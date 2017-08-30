@@ -22,7 +22,6 @@ var usdInput = prompt("USD");
 var eurInput = prompt("EUR");
 
 console.log(resultMoneyCalc());
-alert(resultMoneyCalc());
 
 function resultMoneyCalc() {
     return (eurInput + " Euros are equal " + eurInput * EUR + " UAH, "+ 
