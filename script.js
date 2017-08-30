@@ -17,7 +17,6 @@ document.getElementById('tsk1').innerHTML=resultTsk1();
 const USD = 25.6692;
 const EUR = 30.6879;
 const EURvsUSD = 1.17;
-
 var usdInput = prompt("USD");
 var eurInput = prompt("EUR");
 
