@@ -1,0 +1,19 @@
+body {
+	background-color: #bac3d3;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+div.content {
+	width: 700px;
+	height: 120px;
+	border: 3px solid #fff; 
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#meetingTsk{
+	background-color: #ea595f;
+}
+#moneyTsk{
+	background-color: #1bd46f;
+}
