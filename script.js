@@ -1,11 +1,12 @@
 // Tsk 1
 var event = prompt("Do you have to meet with someone?" , "Enter Name here");
+var messageEvent = "Daenerys"
+// event = checkPromptIfEmpty(messageEvent)
 var person = "John Snow";
 var time = "16:00";
 var date = "Dec/16/1246";
 var day = "Sunday";
 var place = "DragonStone";
-
 function resultTsk1() {
     return (person + " have a meeting with " + event + " in " + place + " on " + day + " " + date + " at " + time);
 }
@@ -17,8 +18,8 @@ document.getElementById('tsk1').innerHTML=resultTsk1();
 const USD = 25.6692;
 const EUR = 30.6879;
 const EURvsUSD = 1.17;
-var usdInput = prompt("USD", "enter value of Dollars you have");
-var eurInput = prompt("EUR", "enter value of Euros you have");
+var usdInput = prompt("USD", "0");
+var eurInput = prompt("EUR", "0");
 
 console.log(resultMoneyCalc());
 
