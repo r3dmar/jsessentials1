@@ -10,9 +10,7 @@ function resultTsk1() {
 }
 console.log(resultTsk1());
 document.getElementById('tsk1').innerHTML=resultTsk1();
-
-// Tsk2
-
+		// Tsk2
 const USD = 25.6692;
 const EUR = 30.6879;
 const EURvsUSD = 1.17;
