@@ -1,5 +1,5 @@
 // Tsk 1
-var event = prompt("Do you have to meet with someone?");
+var event = prompt("Do you have to meet with someone?" , "Enter Name here");
 var person = "John Snow";
 var time = "16:00";
 var date = "Dec/16/1246";
@@ -17,8 +17,8 @@ document.getElementById('tsk1').innerHTML=resultTsk1();
 const USD = 25.6692;
 const EUR = 30.6879;
 const EURvsUSD = 1.17;
-var usdInput = prompt("USD");
-var eurInput = prompt("EUR");
+var usdInput = prompt("USD", "enter value of Dollars you have");
+var eurInput = prompt("EUR", "enter value of Euros you have");
 
 console.log(resultMoneyCalc());
 
