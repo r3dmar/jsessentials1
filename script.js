@@ -17,7 +17,7 @@ const EURvsUSD = 1.17;
 
 // var usdInput = prompt ("Enter below how much USD you have", "0");
 // var eurInput = prompt("Enter below how much EUR you have", "0");
-var udsInput = prompt ("Enter below how much USDolars you have", "0");
+var usdInput = prompt ("Enter below how much USDolars you have", "0");
 var eurInput = prompt ("Enter below how much EURO you have", "0");
 
 function resultMoneyCalc() {
