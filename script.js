@@ -21,8 +21,8 @@ const EURvsUSD = 1.17;
 
 console.log(resultMoneyCalc());
 function resultMoneyCalc() {
-udsInput = prompt ("Enter below how much USDolars you have", "0");
-eurInput = prompt ("Enter below how much EURO you have", "0");
+var udsInput = prompt ("Enter below how much USDolars you have", "0");
+var eurInput = prompt ("Enter below how much EURO you have", "0");
 if (isNaN(+usdInput) || isNaN(+eurInput)) { 
 alert("Not a number") 
 resultMoneyCalc()
