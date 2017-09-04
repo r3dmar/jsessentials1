@@ -14,14 +14,22 @@ document.getElementById('tsk1').innerHTML=resultTsk1();
 const USD = 25.6692;
 const EUR = 30.6879;
 const EURvsUSD = 1.17;
-var usdInput = prompt("Enter below how much USD you have", "0");
-var eurInput = prompt("Enter below how much EUR you have", "0");
+
+// var usdInput = prompt ("Enter below how much USD you have", "0");
+// var eurInput = prompt("Enter below how much EUR you have", "0");
+
 
 console.log(resultMoneyCalc());
-
 function resultMoneyCalc() {
-    return (eurInput + " Euros are equal " + eurInput * EUR + " UAH, "+ 
+udsInput = prompt ("Enter below how much USDolars you have", "0");
+eurInput = prompt ("Enter below how much EURO you have", "0");
+if (isNaN(+usdInput) || isNaN(+eurInput)) { 
+alert("Not a number") 
+resultMoneyCalc()
+} else {
+ return (eurInput + " Euros are equal " + eurInput * EUR + " UAH, "+
     usdInput + " Dollars are equal " + usdInput * USD + " UAH, "  +
     "one Euro is equal " + EURvsUSD + " Dollars.");
+}
 }
 document.getElementById('tsk2').innerHTML=resultMoneyCalc();
