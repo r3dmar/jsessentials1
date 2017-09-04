@@ -1,4 +1,5 @@
 // Tsk 1
+
 var person = prompt("Enter your name" , "John Snow");
 var event = prompt("Do you have to meet with someone?" , "Daenerys Targarien");
 var time = "16:00";
@@ -10,20 +11,22 @@ function resultTsk1() {
 }
 console.log(resultTsk1());
 document.getElementById('tsk1').innerHTML=resultTsk1();
-		// Tsk2
+
+// Tsk2
+
 const USD = 25.6692;
 const EUR = 30.6879;
 const EURvsUSD = 1.17;
 
-// var usdInput = prompt ("Enter below how much USD you have", "0");
-// var eurInput = prompt("Enter below how much EUR you have", "0");
-var usdInput = prompt ("Enter below how much USDolars you have", "0");
+function getDataFromUser() {
+var udsInput = prompt ("Enter below how much USDolars you have", "0");
 var eurInput = prompt ("Enter below how much EURO you have", "0");
-
+}
 function resultMoneyCalc() {
+getDataFromUser();
 if (isNaN(+usdInput) || isNaN(+eurInput)) { 
 alert("Not a number") 
-resultMoneyCalc()
+getDataFromUser();
 } else {
  return (eurInput + " Euros are equal " + eurInput * EUR + " UAH, "+
     usdInput + " Dollars are equal " + usdInput * USD + " UAH, "  +
