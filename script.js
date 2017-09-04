@@ -18,20 +18,19 @@ const USD = 25.6692;
 const EUR = 30.6879;
 const EURvsUSD = 1.17;
 
-function getDataFromUser() {
+
 var usdInput = prompt ("Enter below how much USDolars you have", "0");
 var eurInput = prompt ("Enter below how much EURO you have", "0");
-}
+
 function resultMoneyCalc() {
-getDataFromUser();
 if (isNaN(+usdInput) || isNaN(+eurInput)) { 
 alert("Not a number") 
-getDataFromUser();
 } else {
  return (eurInput + " Euros are equal " + eurInput * EUR + " UAH, "+
     usdInput + " Dollars are equal " + usdInput * USD + " UAH, "  +
     "one Euro is equal " + EURvsUSD + " Dollars.");
 }
 }
-document.getElementById('tsk2').innerHTML=resultMoneyCalc();
 console.log(resultMoneyCalc());
+document.getElementById('tsk2').innerHTML=resultMoneyCalc();
+
